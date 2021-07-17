@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CUSTOM STYLE */
+
+body {
+    line-height: 20px;
+    font-size: 16px;
+    padding: 40px 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+
+/* HEADER */
+
+.header {
+    background-color: rgb(7,21,76);
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.header a {
+   font-size: 20px;
+   text-transform: uppercase;
+   padding: 0 20px;
+   text-decoration: none;
+}
+.home {
+    color: rgb(21,186,58);
+}
+.blog {
+    color: white;
+}
+
+/* MAIN STYLE */
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+h1 {
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: rgb(73,76,79);
+    text-align: center;
+}
+.box {
+    height: 150px;
+    width: 150px; 
+    background-color: rgb(153,216,202);
+    margin: 40px auto;
+    outline: 10px solid rgb(88,115,226);
+    outline-offset: -30px;
+    box-shadow:  inset 0px 0px 0px 10px black;
+    border: 15px solid rgb(144,255,169);
+    border-radius: 20px;
+}
+.marker-container {
+    text-align: center;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgb(144,255,169) ;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.color {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.marker {
+    display: inline-block;
+}
+.content {
+    background-color: rgb(153,216,202);
+}
+.outline {
+    background-color: black;
+}
+.border {
+    background-color: rgb(144,255,169);
+}    
+.box-shadow {
+    background-color: rgb(88,115,226);
+}
+hr {
+    border-style: dashed;
+    margin-top: 40px;
+    color: gray;
+}
+.box-container {
+    width: 660px;
+    border: 2px solid grey;
+    margin: 40px auto;
+    font-size: 0;
+
+}
+.child-box {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: rgb(218,224,250);
+    display: inline-block;
+   box-sizing: border-box; 
+}
+.border {
+    border: 2px solid black;
+}
+.blog-container {
+    width: 850px;
+    margin: 40px auto;   
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    
+}
+.blog-box {
+     width: 400px;
+     margin: 10px;
+     display:inline-block;
+     
+}
+h3 {
+    font-size: 26px;
+    color: rgb(6,19,69);
+    
+}
+p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.read-more {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(25,187,61);
+    border-radius: 25px;
+}.text {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    
+}
+
+.one {
+    vertical-align: top;
+}
+.three {
+    vertical-align: top;
+}
+.heading {
+    padding-top: 10px;
+}
+.text-link {
+    font-size: 20px;
+    color: rgb(21,186,58);
+
+}
