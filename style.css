@@ -52,7 +52,7 @@ table {
 body {
     line-height: 20px;
     font-size: 16px;
-    padding: 40px 0;
+    
 }
 
 .container {
@@ -61,15 +61,15 @@ body {
     
 }
 
-/* HEADER */
+/* HOME HEADER */
 
-.header {
+.home-header {
     background-color: rgb(7,21,76);
     text-align: center;
     padding: 20px 0;
     
 }
-.header a {
+.home-header a {
    font-size: 20px;
    text-transform: uppercase;
    padding: 0 20px;
@@ -80,6 +80,26 @@ body {
 }
 .blog {
     color: white;
+}
+
+/* BLOG HEADER */
+.blog-header {
+    background-color: rgb(7,21,76);
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.blog-header a {
+   font-size: 20px;
+   text-transform: uppercase;
+   padding: 0 20px;
+   text-decoration: none;
+}
+.home-page {
+    color: white
+}
+.blog-page {
+    color: rgb(21,186,58);
 }
 
 /* MAIN STYLE */
