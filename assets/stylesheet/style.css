@@ -215,9 +215,11 @@ p {
     height: 30px;
     background-color: rgb(25,187,61);
     border-radius: 25px;
+    
 }
 .text {
     text-decoration: none;
+    color: white;
 }
 .one {
     vertical-align: top;
